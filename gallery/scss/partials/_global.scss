@@ -1,0 +1,15 @@
+$background: linear-gradient(0deg, rgba(73, 73, 73, 1) 0%, rgba(0, 0, 0, 1) 85%);
+$fontMenu: 'Lobster',
+sans-serif;
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  background: $background;
+}

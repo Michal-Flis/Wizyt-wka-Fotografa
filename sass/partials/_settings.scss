@@ -1,0 +1,57 @@
+$backgroundBody: linear-gradient(180deg, rgba(25, 19, 5, 1) 10%, rgba(64, 85, 85, 1) 63%, rgba(34, 193, 195, 1) 100%);
+$headerBackgroundColor: linear-gradient(270deg, rgba(34, 193, 195, 1) 0%, rgba(25, 19, 5, 1) 75%);
+$fontMenuColor: #006C7A;
+$fontMenuHoverColor: #941400;
+$fontNameColor: #0F0F0F;
+$goldColor: #574e20;
+$blackColor: #000;
+
+
+
+$fontMenu: 'Lobster',
+sans-serif;
+$fontName: 'Philosopher',
+sans-serif;
+$fontWork: 'Noto Sans Display',
+sans-serif;
+$buttonFont: 'Francois One',
+sans-serif;
+$sessionFont: 'Ubuntu',
+sans-serif;
+
+
+
+@mixin after($width, $height, $translate) {
+  content: '';
+  display: block;
+  width: $width;
+  height: $height;
+  background: #000;
+  transform: translateX($translate);
+}
+
+@mixin center($top, $left, $transformX, $transformY) {
+  position: absolute;
+  left: $left;
+  top: $top;
+  transform: translate($transformX, $transformY);
+}
+
+@mixin flex($justifyContent) {
+  display: flex;
+  justify-content: $justifyContent;
+}
+
+@mixin contactFlex($flexDirection) {
+  display: flex;
+  flex-direction: $flexDirection;
+}
+
+@mixin input($margin, $height) {
+  margin-bottom: $margin;
+  height: $height;
+  border: 2px solid #fff;
+  border-radius: 15px;
+  background: rgb(221, 221, 221);
+  padding: 10px;
+}

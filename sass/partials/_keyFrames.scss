@@ -1,0 +1,79 @@
+@keyframes entry-my-photo {
+  from {
+    transform: translateX(-100%);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes wrapper-person-move {
+  from {
+    transform: translateY(100%);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes gallery-title-entry {
+  from {
+    transform: translateY(-100%);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes gallery-photo-entry {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes sessionTitle {
+  from {
+    transform: translateY(-350%);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes sessionPhoto {
+  from {
+    transform: translateX(-150%);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes sessionParagraph {
+  from {
+    transform: translateY(250%);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes sessionDescription {
+  from {
+    transform: translateX(100%);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}

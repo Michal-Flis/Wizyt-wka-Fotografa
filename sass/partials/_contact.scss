@@ -1,0 +1,64 @@
+.contact {
+  width: 100%;
+  background: $blackColor;
+  margin-top: 10px;
+  padding: 40px;
+}
+
+.contact-title {
+  font-size: 5em;
+  font-family: $fontMenu;
+  text-align: center;
+  margin-bottom: 1.3em;
+  color: #fff;
+}
+
+.contact-wrapper {
+  @include flex(space-around);
+}
+
+.contact-form-wrapper {
+  width: 50%;
+}
+
+.contact-form {
+  @include contactFlex(column);
+  width: 50%;
+  margin: 10px auto;
+}
+
+.contact-input {
+  @include input(15px, 35px);
+}
+
+textarea {
+  @include input(10px, 150px);
+}
+
+.contact-button {
+  @include input(15px, 35px);
+  font-weight: bold;
+  cursor: pointer;
+  transition: .3s ease-in-out;
+}
+
+.contact-button:hover {
+  color: #fff;
+  background: $blackColor;
+}
+
+.constact-social {
+  @include contactFlex(column);
+  width: 50%;
+}
+
+.contact-icon {
+  font-size: 4em;
+  text-decoration: none;
+  color: rgb(185, 185, 185);
+  margin-bottom: 40px;
+}
+
+.link-span {
+  margin-left: 40px;
+}

@@ -1,0 +1,81 @@
+.gallery {
+  overflow: hidden;
+}
+
+.gallery-title {
+  font-size: 7em;
+  font-family: $fontMenu;
+  text-align: center;
+  margin-bottom: 1em;
+  letter-spacing: .1em;
+  transform: translateY(-100%);
+}
+
+.wrapper-gallery {
+  position: relative;
+  padding: 4em 2em;
+  opacity: 0;
+  overflow: hidden;
+}
+
+.move-gallery {
+  @include flex(space-between);
+  width: 100%;
+  transition: .7s linear;
+}
+
+.photo-gallery {
+  width: 35em;
+  height: 25em;
+  margin: 1em 2em;
+  border: 1px solid $blackColor;
+  border-radius: 2em;
+}
+
+.fa-chevron-left {
+  @include center(50%, 0, 0, -50%);
+  font-size: 5em;
+  color: #999999;
+  cursor: pointer;
+  z-index: 5;
+}
+
+.fa-chevron-right {
+  @include center(50%, 95%, 0, -50%);
+  display: none;
+  font-size: 5em;
+  color: #999999;
+  cursor: pointer;
+  z-index: 5;
+}
+
+.more-photo {
+  position: relative;
+  font-size: 7em;
+  font-family: $buttonFont;
+  color: $blackColor;
+  border: 3px solid $blackColor;
+  border-radius: 3em;
+  padding: .1em .5em;
+  text-decoration: none;
+  line-height: 250px;
+  margin-left: 50px;
+  overflow-x: hidden;
+  transition: .2s linear;
+}
+
+.more-photo:hover {
+  font-family: $buttonFont;
+  background: $blackColor;
+  color: #870000;
+}
+
+.move-title {
+  animation: gallery-title-entry 1s ease-in-out;
+  transform: translateY(0);
+}
+
+.gallery-photo-move {
+  animation: gallery-photo-entry 2s ease-in-out;
+  opacity: 1;
+}

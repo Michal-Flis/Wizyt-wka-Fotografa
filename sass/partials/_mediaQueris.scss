@@ -1,0 +1,352 @@
+@media only screen and (max-width: 1440px) {
+  .name {
+    font-size: 13em;
+  }
+
+  .work {
+    font-size: 5em;
+  }
+
+  .move-gallery {
+    width: 120%;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .name {
+    font-size: 11em;
+  }
+
+  .work {
+    font-size: 4em;
+  }
+
+  .move-gallery {
+    width: 135%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .my-photo {
+    width: 70em;
+  }
+
+  .name {
+    font-size: 9em;
+  }
+
+  .work {
+    font-size: 2.5em;
+  }
+
+  .move-gallery {
+    width: 185%;
+  }
+
+  .session-title {
+    margin: 1.5em auto;
+  }
+
+  .description {
+    font-size: 1.8em;
+    margin-top: 50px;
+    line-height: 20px;
+    transform: translateX(0);
+  }
+
+  .me {
+    font-size: 2em;
+  }
+
+  .sessions {
+    font-size: 2em;
+  }
+
+  .project-me {
+    font-size: 2em;
+  }
+
+  .start-carrer {
+    font-size: 2em;
+  }
+
+  .big-project {
+    font-size: 2em;
+  }
+
+  .about {
+    font-size: 2em;
+  }
+
+  .contact {
+    height: 100vh;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .my-photo {
+    width: 50em;
+    height: 42vh;
+  }
+
+  .name {
+    font-size: 7em;
+  }
+
+  .move-gallery {
+    width: 220%;
+  }
+
+  .wrapper-session {
+    width: 95%;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .burger {
+    display: block;
+  }
+
+  .line {
+    width: 3rem;
+    height: 0.2rem;
+    background: #fff;
+    border-radius: 20px;
+    margin: 1rem 3rem;
+    transition: .3s linear;
+  }
+
+  .burger.active-burger .line:first-child {
+    transform: translateY(-300px);
+  }
+
+  .burger.active-burger .line:nth-child(2) {
+    transform: rotate(-416deg) translateY(9px);
+  }
+
+  .burger.active-burger .line:nth-child(3) {
+    transform: rotate(-310deg) translateY(-12px);
+  }
+
+  .menu {
+    position: absolute;
+    flex-direction: column;
+    top: 13vh;
+    right: 0;
+    width: 100%;
+    height: 90vh;
+    background: #b8acac;
+    text-align: center;
+    margin: 0;
+    padding: 2rem;
+    transform: translate(100%);
+    transition: .3s linear;
+    z-index: 3;
+  }
+
+  .active-burger {
+    transform: translate(0%);
+  }
+
+  .my-photo {
+    width: 45em;
+    height: 63vh;
+  }
+
+  .name {
+    font-size: 5.5em;
+  }
+
+  .move-gallery {
+    width: 270%;
+  }
+
+  .session-category {
+    width: 30em;
+    transform: translateX(5%);
+  }
+
+  .description {
+    font-size: 1.5em;
+    margin-top: 40px;
+  }
+
+  .contact-icon {
+    font-size: 2.5em;
+  }
+
+}
+
+@media only screen and (max-width: 425px) {
+  .burger.active-burger .line:nth-child(2) {
+    transform: rotate(-413deg) translateY(10px);
+  }
+
+  .burger.active-burger .line:nth-child(3) {
+    transform: rotate(-306deg) translateY(-11px);
+  }
+
+  .my-photo {
+    width: 25em;
+    height: 40vh;
+  }
+
+  .name {
+    font-size: 3em;
+  }
+
+  .work {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+
+  .photo-gallery {
+    width: 25em;
+    height: 20em;
+  }
+
+  .move-gallery {
+    width: 420%;
+  }
+
+  .session-title {
+    font-size: 3.2em;
+  }
+
+  .photo-and-description {
+    flex-direction: column;
+  }
+
+  .session-photo {
+    border-right: none;
+    padding: 0;
+  }
+
+  .description {
+    padding-left: 0;
+  }
+
+  .session-category {
+    transform: translateX(0%);
+  }
+
+  .me {
+    font-size: 1.2em;
+  }
+
+  .sessions {
+    font-size: 1.2em;
+  }
+
+  .project-me {
+    font-size: 1.2em;
+  }
+
+  .start-carrer {
+    font-size: 1.2em;
+  }
+
+  .big-project {
+    font-size: 1.2em;
+  }
+
+  .about {
+    font-size: 1.2em;
+  }
+
+  .contact-title {
+    font-size: 3em;
+  }
+
+  .contact-wrapper {
+    flex-direction: column;
+  }
+
+  .contact-form-wrapper {
+    width: 100%;
+  }
+
+  .contact-icon {
+    font-size: 1.3em;
+  }
+
+  .constact-social {
+    width: 50%;
+    margin: 20px auto;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .my-photo {
+    width: 20em;
+    height: 40vh;
+  }
+
+  .name {
+    font-size: 3em;
+  }
+
+  .work {
+    font-size: 1.5em;
+  }
+
+  .move-gallery {
+    width: 500%;
+  }
+
+  .session-title {
+    font-size: 2.5em;
+  }
+
+  .contact-icon {
+    font-size: 1em;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .my-photo {
+    width: 17em;
+  }
+
+  .name {
+    font-size: 2.5em;
+  }
+
+  .work {
+    font-size: 1.2em;
+  }
+
+  .move-gallery {
+    width: 610%;
+  }
+
+  .me {
+    font-size: .8em;
+  }
+
+  .sessions {
+    font-size: .8em;
+  }
+
+  .project-me {
+    font-size: .8em;
+  }
+
+  .start-carrer {
+    font-size: .8em;
+  }
+
+  .big-project {
+    font-size: .8em;
+  }
+
+  .about {
+    font-size: .8em;
+  }
+
+  .contact-icon {
+    font-size: .75em;
+  }
+
+
+}

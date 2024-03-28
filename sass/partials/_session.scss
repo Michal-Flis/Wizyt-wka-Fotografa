@@ -1,0 +1,74 @@
+.wrapper-session {
+  margin: 5em auto 0 auto;
+  width: 80%;
+  text-align: center;
+  overflow: hidden;
+}
+
+.session-title {
+  width: 50%;
+  font-size: 5em;
+  font-family: $fontMenu;
+  margin: 3em auto;
+  transform: translateY(-350%);
+}
+
+.photo-and-description {
+  @include flex(space-between);
+  width: 90%;
+  height: 40%;
+  margin: 4em auto;
+  padding: 2em;
+  overflow: hidden;
+}
+
+.session-photo {
+  padding: 2em 5em 2em 2em;
+  border-right: 2px solid black;
+}
+
+.session-category {
+  width: 40em;
+  box-shadow: 5px 8px 40px #fff;
+  margin-bottom: 2em;
+  transform: translateX(-150%);
+}
+
+.category {
+  font-size: 3em;
+  font-family: $sessionFont;
+  font-weight: bold;
+  text-shadow: 5px 3px 8px#fff;
+  transform: translateY(250%);
+}
+
+.description {
+  font-size: 2.5em;
+  font-family: $sessionFont;
+  padding-left: 2em;
+  font-weight: bold;
+  text-shadow: 5px 3px 8px#1b0202;
+  margin-top: 70px;
+  line-height: 30px;
+  transform: translateX(100%);
+}
+
+.animationTitle {
+  animation: sessionTitle 1.5s ease-in-out;
+  transform: translateY(0);
+}
+
+.animationPhoto {
+  animation: sessionPhoto 2s ease-in-out;
+  transform: translateX(0);
+}
+
+.animationParagraph {
+  animation: sessionParagraph 1.5s ease-in-out;
+  transform: translateY(0);
+}
+
+.animationDescription {
+  animation: sessionDescription 2s ease-in-out;
+  transform: translateX(0);
+}

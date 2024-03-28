@@ -1,0 +1,44 @@
+nav {
+  @include flex(space-between);
+  align-items: center;
+}
+
+.logo {
+  width: 15em;
+  height: 12em;
+}
+
+.menu {
+  @include flex(space-around);
+  align-items: center;
+  width: 65%;
+  list-style: none;
+}
+
+.menu-link {
+  font-size: 4em;
+  font-family: $fontMenu;
+  text-decoration: none;
+  color: $fontMenuColor;
+  transition: .2s linear;
+}
+
+.menu-link:hover {
+  color: $fontMenuHoverColor;
+}
+
+.burger {
+  display: none;
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+.line {
+  width: 3rem;
+  height: 0.2rem;
+  background: $blackColor;
+  border-radius: 20px;
+  margin: 1rem 3rem;
+  transition: .3s linear;
+}

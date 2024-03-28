@@ -1,0 +1,57 @@
+.title-me {
+  font-size: 5em;
+  font-family: $fontMenu;
+  text-align: center;
+  margin: 2em auto;
+}
+
+.wrapper-about-me {
+  @include flex(space-between);
+  width: 90%;
+  margin: 0 auto;
+  font-family: $fontWork;
+  font-weight: bold
+}
+
+.first {
+  border-right: 2px solid $blackColor;
+  width: 50%;
+  padding: 30px;
+  text-align: center;
+}
+
+.second {
+  border-left: 2px solid $blackColor;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+}
+
+.me {
+  font-size: 3.5em;
+  margin-bottom: 200px;
+}
+
+.sessions {
+  font-size: 3.5em;
+  margin-top: 150px;
+}
+
+.project-me {
+  font-size: 3.5em;
+  margin-bottom: 200px;
+}
+
+.start-carrer {
+  font-size: 3.5em;
+  margin-top: 250px;
+}
+
+.big-project {
+  font-size: 3.5em;
+}
+
+.about {
+  font-size: 3.5em;
+  margin-top: 200px;
+}
